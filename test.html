@@ -1,0 +1,2770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Test - Mentor Bootstrap Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https//fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        .radio-buttons-group {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: flex-start;
+            gap: 8px; /* Space between each radio and label */
+            width: auto; /* Allow the radio-buttons-group to take up necessary width */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .radio-button {
+            display: flex;
+            align-items: center; /* Align radio and label */
+        }
+
+        .radio-button label {
+            margin-left: 5px; /* add some space between the radio and label */
+        }
+    </style>
+
+</head>
+
+<body class="test-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <h1 class="sitename">MINDCARE</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="test.html" class="active">Test<br></a></li>
+                    <li><a href="result.html">Result</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+
+            <a class="btn-getstarted" href="test.html">Get Started</a>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title" data-aos="fade">
+            <div class="heading">
+                <div class="container">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <h1>Test</h1>
+                            <p class="mb-0">Alat tes gangguan kecemasan ini hanya bersifat deteksi awal, bukan pengganti tes diagnostik. Segera kunjungi tenaga medis terdekat untuk mendapatkan hasil akurat dan perawatan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="breadcrumbs">
+                <div class="container">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current">Test</li>
+                    </ol>
+                </div>
+            </nav>
+        </div><!-- End Page Title -->
+
+         <!-- Personality Test Section -->
+         <section id="personality-test" class="personality-test section">
+            <div class="container">
+
+                <!-- Questions start here -->
+                <!-- Question 1 -->
+                <div class="question-container">
+                    <h4 class="text-Left mt-4">1. Saya merasa takut tanpa alasan</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree1_1" name="answer1" value="agree1_1">
+                        <label for="agree1_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral1_2" name="answer1" value="neutral1_2">
+                        <label for="neutral1_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral1_3" name="answer1" value="neutral1_3">
+                        <label for="neutral1_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral1_4" name="answer1" value="neutral1_4">
+                        <label for="neutral1_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral1_5" name="answer1" value="neutral1_5">
+                        <label for="neutral1_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 1 -->
+
+                <!-- Question 2 -->
+                <div class="question-container">
+                    <p style="text-align: justify;"></p>
+                    <h4 class="text-Left mt-4">2. Saya merasa takut ketika dihadapkan dengan lingkungan baru</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree2_1" name="answer2" value="agree2_1">
+                        <label for="agree2_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral2_2" name="answer2" value="neutral2_2">
+                        <label for="neutral2_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral2_3" name="answer2" value="neutral2_3">
+                        <label for="neutral2_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral2_4" name="answer2" value="neutral2_4">
+                        <label for="neutral2_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral2_5" name="answer2" value="neutral2_5">
+                        <label for="neutral2_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 2 -->
+
+                <!-- Question 3 -->
+                <div class="question-container">
+                    <h4 class="text-Left mt-4">3. Saya merasa baik-baik saja pada kondisi normal</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree3_1" name="answer3" value="agree3_1">
+                        <label for="agree3_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral3_2" name="answer3" value="neutral3_2">
+                        <label for="neutral3_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral3_3" name="answer3" value="neutral3_3">
+                        <label for="neutral3_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral3_4" name="answer3" value="neutral3_4">
+                        <label for="neutral3_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral3_5" name="answer3" value="neutral3_5">
+                        <label for="neutral3_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 3 -->
+                  <!-- Question 4 -->
+                  <div class="question-container">
+                    <h4 class="text-Left mt-4">4. Saya merasa berani ketika menghadapi tantangan yang baru</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree4_1" name="answer4" value="agree4_1">
+                        <label for="agree4_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral4_2" name="answer4" value="neutral4_2">
+                        <label for="neutral4_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral4_3" name="answer4" value="neutral4_3">
+                        <label for="neutral4_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral4_4" name="answer4" value="neutral4_4">
+                        <label for="neutral4_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral4_5" name="answer4" value="neutral4_5">
+                        <label for="neutral4_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 4 -->
+                 <!-- Question 5 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">5. Saya merasa khawatir akan ketidakpastian</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree5_1" name="answer5" value="agree5_1">
+                        <label for="agree5_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral5_2" name="answer5" value="neutral5_2">
+                        <label for="neutral5_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral5_3" name="answer5" value="neutral5_3">
+                        <label for="neutral5_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral5_4" name="answer5" value="neutral5_4">
+                        <label for="neutral5_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral5_5" name="answer5" value="neutral5_5">
+                        <label for="neutral5_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 5 -->
+                 <!-- Question 6 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">6. Saya merasa cemas dengan masa depan</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree6_1" name="answer6" value="agree6_1">
+                        <label for="agree6_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral6_2" name="answer6" value="neutral6_2">
+                        <label for="neutral6_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral6_3" name="answer6" value="neutral6_3">
+                        <label for="neutral6_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral6_4" name="answer6" value="neutral6_4">
+                        <label for="neutral6_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral6_5" name="answer6" value="neutral6_5">
+                        <label for="neutral6_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 6 -->
+                 <!-- Question 7 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">7. Saya mudah merasa tenang</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree7_1" name="answer7" value="agree7_1">
+                        <label for="agree7_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral7_2" name="answer7" value="neutral7_2">
+                        <label for="neutral7_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral7_3" name="answer7" value="neutral7_3">
+                        <label for="neutral7_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral7_4" name="answer7" value="neutral7_4">
+                        <label for="neutral7_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral7_5" name="answer7" value="neutral7_5">
+                        <label for="neutral7_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 7 -->
+                 <!-- Question 8 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">8. Saya merasa masa depan saya tidak membuat saya cemas</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree8_1" name="answer8" value="agree8_1">
+                        <label for="agree8_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral8_2" name="answer8" value="neutral8_2">
+                        <label for="neutral8_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral8_3" name="answer8" value="neutral8_3">
+                        <label for="neutral8_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral8_4" name="answer8" value="neutral8_4">
+                        <label for="neutral8_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral8_5" name="answer8" value="neutral8_5">
+                        <label for="neutral8_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 8 -->
+                 <!-- Question 9 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">9. Saya mudah gelisah ketika membayangkan hari esok</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree9_1" name="answer9" value="agree9_1">
+                        <label for="agree9_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral9_2" name="answer9" value="neutral9_2">
+                        <label for="neutral9_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral9_3" name="answer9" value="neutral9_3">
+                        <label for="neutral9_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral9_4" name="answer9" value="neutral9_4">
+                        <label for="neutral9_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral9_5" name="answer9" value="neutral9_5">
+                        <label for="neutral9_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 9 -->
+                 <!-- Question 10 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">10. Saya sering merasa khawatir tentang bagaimana orang lain memandang saya</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree10_1" name="answer10" value="agree10_1">
+                        <label for="agree10_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral10_2" name="answer10" value="neutral10_2">
+                        <label for="neutral10_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral10_3" name="answer10" value="neutral10_3">
+                        <label for="neutral10_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral10_4" name="answer10" value="neutral10_4">
+                        <label for="neutral10_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral10_5" name="answer10" value="neutral10_5">
+                        <label for="neutral10_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 10 -->
+                <!-- Question 11 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">11. Saya tidak memedulikan hal yang belum mungkin terjadi</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree11_1" name="answer11" value="agree11_1">
+                        <label for="agree11_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral11_2" name="answer11" value="neutral11_2">
+                        <label for="neutral11_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral11_3" name="answer11" value="neutral11_3">
+                        <label for="neutral11_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral11_4" name="answer11" value="neutral11_4">
+                        <label for="neutral11_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral11_5" name="answer11" value="neutral11_5">
+                        <label for="neutral11_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 11 -->
+                 <!-- Question 12 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">12. Saya dapat bersikap tenang dengan penilaian orang lain terhadap diri saya</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree12_1" name="answer12" value="agree12_1">
+                        <label for="agree12_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral12_2" name="answer12" value="neutral12_2">
+                        <label for="neutral12_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral12_3" name="answer12" value="neutral12_3">
+                        <label for="neutral12_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral12_4" name="answer12" value="neutral12_4">
+                        <label for="neutral12_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral12_5" name="answer12" value="neutral12_5">
+                        <label for="neutral12_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 12 -->
+                 <!-- Question 13 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">13. Saya merasa tidak nyaman tanpa alasan yang jelas</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree13_1" name="answer13" value="agree13_1">
+                        <label for="agree13_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral13_2" name="answer13" value="neutral13_2">
+                        <label for="neutral13_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral13_3" name="answer13" value="neutral13_3">
+                        <label for="neutral13_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral13_4" name="answer13" value="neutral13_4">
+                        <label for="neutral13_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral13_5" name="answer13" value="neutral13_5">
+                        <label for="neutral13_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 13 -->
+                 <!-- Question 14 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">14. Saya merasa tidak nyaman saat berada dalam situasi yang tidak saya kuasai</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree14_1" name="answer14" value="agree14_1">
+                        <label for="agree14_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral14_2" name="answer14" value="neutral14_2">
+                        <label for="neutral14_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral14_3" name="answer14" value="neutral14_3">
+                        <label for="neutral14_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral14_4" name="answer14" value="neutral14_4">
+                        <label for="neutral14_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral14_5" name="answer14" value="neutral14_5">
+                        <label for="neutral14_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 14 -->
+                 <!-- Question 15 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">15. Saya merasa nyaman pada kondisi normal</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree15_1" name="answer15" value="agree15_1">
+                        <label for="agree15_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral15_2" name="answer15" value="neutral15_2">
+                        <label for="neutral15_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral15_3" name="answer15" value="neutral15_3">
+                        <label for="neutral15_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral15_4" name="answer15" value="neutral15_4">
+                        <label for="neutral15_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral15_5" name="answer15" value="neutral15_5">
+                        <label for="neutral15_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 15 -->
+                 <!-- Question 16 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">16. Saya merasa nyaman dalam hal baru</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree16_1" name="answer16" value="agree16_1">
+                        <label for="agree16_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral16_2" name="answer16" value="neutral16_2">
+                        <label for="neutral16_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral16_3" name="answer16" value="neutral16_3">
+                        <label for="neutral16_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral16_4" name="answer16" value="neutral16_4">
+                        <label for="neutral16_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral16_5" name="answer16" value="neutral16_5">
+                        <label for="neutral16_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 16 -->
+                 <!-- Question 17 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">17. Saya mudah merasa gelisah</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree17_1" name="answer17" value="agree17_1">
+                        <label for="agree17_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral17_2" name="answer17" value="neutral17_2">
+                        <label for="neutral17_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral17_3" name="answer17" value="neutral17_3">
+                        <label for="neutral17_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral17_4" name="answer17" value="neutral17_4">
+                        <label for="neutral17_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral17_5" name="answer17" value="neutral17_5">
+                        <label for="neutral17_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 17 -->
+                 <!-- Question 18 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">18. saya gelisah ketika diberikan tanggung jawab</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree18_1" name="answer18" value="agree18_1">
+                        <label for="agree18_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral18_2" name="answer18" value="neutral18_2">
+                        <label for="neutral18_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral18_3" name="answer18" value="neutral18_3">
+                        <label for="neutral18_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral18_4" name="answer18" value="neutral18_4">
+                        <label for="neutral18_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral18_5" name="answer18" value="neutral18_5">
+                        <label for="neutral18_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 18 -->
+                 <!-- Question 19 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">19. Saya tidak mudah gelisah</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree19_1" name="answer19" value="agree19_1">
+                        <label for="agree19_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral19_2" name="answer19" value="neutral19_2">
+                        <label for="neutral19_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral19_3" name="answer19" value="neutral19_3">
+                        <label for="neutral19_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral19_4" name="answer19" value="neutral19_4">
+                        <label for="neutral19_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral19_5" name="answer19" value="neutral19_5">
+                        <label for="neutral19_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 19 -->
+                
+     <!-- Question 20 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">20. Saya baik baik saja jika diberikan tanggung jawab</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree20_1" name="answer20" value="agree20_1">
+            <label for="agree20_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral20_2" name="answer20" value="neutral20_2">
+            <label for="neutral20_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral20_3" name="answer20" value="neutral20_3">
+            <label for="neutral20_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral20_4" name="answer20" value="neutral20_4">
+            <label for="neutral20_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral20_5" name="answer20" value="neutral20_5">
+            <label for="neutral20_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 20 -->
+     <!-- Question 21 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">21. Saya mudah merasa panik</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree21_1" name="answer21" value="agree21_1">
+            <label for="agree21_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral21_2" name="answer21" value="neutral21_2">
+            <label for="neutral21_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral21_3" name="answer21" value="neutral21_3">
+            <label for="neutral21_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral21_4" name="answer21" value="neutral21_4">
+            <label for="neutral21_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral21_5" name="answer21" value="neutral21_5">
+            <label for="neutral21_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 21 -->
+      <!-- Question 22 -->
+      <div class="question-container">
+        <h4 class="text-Left mt-4">22. Saya sulit untuk rileks ketika menghadapi masalah</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree22_1" name="answer22" value="agree22_1">
+            <label for="agree22_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral22_2" name="answer22" value="neutral22_2">
+            <label for="neutral22_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral22_3" name="answer22" value="neutral22_3">
+            <label for="neutral22_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral22_4" name="answer22" value="neutral22_4">
+            <label for="neutral22_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral22_5" name="answer22" value="neutral22_5">
+            <label for="neutral22_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 22 -->
+     <!-- Question 23 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">23. Saya tidak mudah panik</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree23_1" name="answer23" value="agree23_1">
+            <label for="agree23_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral23_2" name="answer23" value="neutral23_2">
+            <label for="neutral23_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral23_3" name="answer23" value="neutral23_3">
+            <label for="neutral23_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral23_4" name="answer23" value="neutral23_4">
+            <label for="neutral23_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral23_5" name="answer23" value="neutral23_5">
+            <label for="neutral23_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 23 -->
+     <!-- Question 24 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">24. Saya dapat tenang jika menghadapi masalah baru</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree24_1" name="answer24" value="agree24_1">
+            <label for="agree24_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral24_2" name="answer24" value="neutral24_2">
+            <label for="neutral24_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral24_3" name="answer24" value="neutral24_3">
+            <label for="neutral24_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral24_4" name="answer24" value="neutral24_4">
+            <label for="neutral24_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral24_5" name="answer24" value="neutral24_5">
+            <label for="neutral24_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 24 -->
+     <!-- Question 25 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">25. Saya berpikir masa depan saya akan hancur</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree25_1" name="answer25" value="agree25_1">
+            <label for="agree25_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral25_2" name="answer25" value="neutral25_2">
+            <label for="neutral25_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral25_3" name="answer25" value="neutral25_3">
+            <label for="neutral25_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral25_4" name="answer25" value="neutral25_4">
+            <label for="neutral25_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral25_5" name="answer25" value="neutral25_5">
+            <label for="neutral25_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 25 -->
+      <!-- Question 26 -->
+      <div class="question-container">
+        <h4 class="text-Left mt-4">26. Saya merasa sulit untuk berhenti memikirkan kemungkinan terburuk dari suatu situasi</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree26_1" name="answer26" value="agree26_1">
+            <label for="agree26_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral26_2" name="answer26" value="neutral26_2">
+            <label for="neutral26_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral26_3" name="answer26" value="neutral26_3">
+            <label for="neutral26_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral26_4" name="answer26" value="neutral26_4">
+            <label for="neutral26_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral26_5" name="answer26" value="neutral26_5">
+            <label for="neutral26_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 26 -->
+     <!-- Question 27 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">27. Saya berpikir positif mengenai masa depan saya</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree27_1" name="answer27" value="agree27_1">
+            <label for="agree27_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral27_2" name="answer27" value="neutral27_2">
+            <label for="neutral27_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral27_3" name="answer27" value="neutral27_3">
+            <label for="neutral27_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral27_4" name="answer27" value="neutral27_4">
+            <label for="neutral27_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral27_5" name="answer27" value="neutral27_5">
+            <label for="neutral27_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 27 -->
+      <!-- Question 28 -->
+      <div class="question-container">
+        <h4 class="text-Left mt-4">28. Saya berpikir kemungkinan terburuk dapat saya tangani</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree28_1" name="answer28" value="agree28_1">
+            <label for="agree28_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral28_2" name="answer28" value="neutral28_2">
+            <label for="neutral28_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral28_3" name="answer28" value="neutral28_3">
+            <label for="neutral28_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral28_4" name="answer28" value="neutral28_4">
+            <label for="neutral28_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral28_5" name="answer28" value="neutral28_5">
+            <label for="neutral28_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 28 -->
+     <!-- Question 29 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">29. Saya merasa khawatir ketika memikirkan hari esok</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree29_1" name="answer29" value="agree29_1">
+            <label for="agree29_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral29_2" name="answer29" value="neutral29_2">
+            <label for="neutral29_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral29_3" name="answer29" value="neutral29_3">
+            <label for="neutral29_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral29_4" name="answer29" value="neutral29_4">
+            <label for="neutral29_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral29_5" name="answer29" value="neutral29_5">
+            <label for="neutral29_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 29 -->
+     <!-- Question 30 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">30. Saya khawatir akan menjadi orang yang gagal</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree30_1" name="answer30" value="agree30_1">
+            <label for="agree30_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral30_2" name="answer30" value="neutral30_2">
+            <label for="neutral30_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral30_3" name="answer30" value="neutral30_3">
+            <label for="neutral30_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral30_4" name="answer30" value="neutral30_4">
+            <label for="neutral30_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral30_5" name="answer30" value="neutral30_5">
+            <label for="neutral30_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 30 -->
+     <!-- Question 31 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">31. Saya merasa baik-baik saja ketika memikirkan hari esok</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree31_1" name="answer31" value="agree31_1">
+            <label for="agree31_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral31_2" name="answer31" value="neutral31_2">
+            <label for="neutral31_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral31_3" name="answer31" value="neutral31_3">
+            <label for="neutral31_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral31_4" name="answer31" value="neutral31_4">
+            <label for="neutral31_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral31_5" name="answer31" value="neutral31_5">
+            <label for="neutral31_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 31 -->
+     <!-- Question 32 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">32. Saya tidak merasa khawatir dengan potensi saya di masa depan</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree32_1" name="answer32" value="agree32_1">
+            <label for="agree32_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral32_2" name="answer32" value="neutral32_2">
+            <label for="neutral32_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral32_3" name="answer32" value="neutral32_3">
+            <label for="neutral32_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral32_4" name="answer32" value="neutral32_4">
+            <label for="neutral32_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral32_5" name="answer32" value="neutral32_5">
+            <label for="neutral32_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 32 -->
+     <!-- Question 33 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">33. Saya merasa khawatir atas hal yang saya sudah lakukan</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree33_1" name="answer33" value="agree33_1">
+            <label for="agree33_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral33_2" name="answer33" value="neutral33_2">
+            <label for="neutral33_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral33_3" name="answer33" value="neutral33_3">
+            <label for="neutral33_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral33_4" name="answer33" value="neutral33_4">
+            <label for="neutral33_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral33_5" name="answer33" value="neutral33_5">
+            <label for="neutral33_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 33 -->
+     <!-- Question 34 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">34. Saya khawatir dengan apa yang sudah saya lakukan akan membuat saya terpuruk</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree34_1" name="answer34" value="agree34_1">
+            <label for="agree34_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral34_2" name="answer34" value="neutral34_2">
+            <label for="neutral34_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral34_3" name="answer34" value="neutral34_3">
+            <label for="neutral34_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral34_4" name="answer34" value="neutral34_4">
+            <label for="neutral34_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral34_5" name="answer34" value="neutral34_5">
+            <label for="neutral34_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 34 -->
+    <!-- Question 35 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">35. Saya merasa baik-baik saja atas hal yang saya sudah lakukan</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree35_1" name="answer35" value="agree35_1">
+            <label for="agree35_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral35_2" name="answer35" value="neutral35_2">
+            <label for="neutral35_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral35_3" name="answer35" value="neutral35_3">
+            <label for="neutral35_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral35_4" name="answer35" value="neutral35_4">
+            <label for="neutral35_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral35_5" name="answer35" value="neutral35_5">
+            <label for="neutral35_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 35 -->
+     <!-- Question 36 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">36. Saya merasa tenang setelah melakukan apa yang sudah saya lakukan</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree36_1" name="answer36" value="agree36_1">
+            <label for="agree36_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral36_2" name="answer36" value="neutral36_2">
+            <label for="neutral36_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral36_3" name="answer36" value="neutral36_3">
+            <label for="neutral36_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral36_4" name="answer36" value="neutral36_4">
+            <label for="neutral36_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral36_5" name="answer36" value="neutral36_5">
+            <label for="neutral36_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 36 -->
+     <!-- Question 37 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">37. Pikiran saya penuh</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree37_1" name="answer37" value="agree37_1">
+            <label for="agree37_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral37_2" name="answer37" value="neutral37_2">
+            <label for="neutral37_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral37_3" name="answer37" value="neutral37_3">
+            <label for="neutral37_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral37_4" name="answer37" value="neutral37_4">
+            <label for="neutral37_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral37_5" name="answer37" value="neutral37_5">
+            <label for="neutral37_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 37 -->
+     <!-- Question 38 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">38. Pikiran saya sendiri menghantui saya</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree38_1" name="answer38" value="agree38_1">
+            <label for="agree38_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral38_2" name="answer38" value="neutral38_2">
+            <label for="neutral38_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral38_3" name="answer38" value="neutral38_3">
+            <label for="neutral38_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral38_4" name="answer38" value="neutral38_4">
+            <label for="neutral38_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral38_5" name="answer38" value="neutral38_5">
+            <label for="neutral38_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 38 -->
+     <!-- Question 39 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">39. saya dapat mengelola pikiran saya</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree39_1" name="answer39" value="agree39_1">
+            <label for="agree39_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral39_2" name="answer39" value="neutral39_2">
+            <label for="neutral39_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral39_3" name="answer39" value="neutral39_3">
+            <label for="neutral39_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral39_4" name="answer39" value="neutral39_4">
+            <label for="neutral39_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral39_5" name="answer39" value="neutral39_5">
+            <label for="neutral39_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 39 -->
+     <!-- Question 40 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">40. Saya tidak pernah dihantui oleh pikiran saya</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree40_1" name="answer40" value="agree40_1">
+            <label for="agree40_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral40_2" name="answer40" value="neutral40_2">
+            <label for="neutral40_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral40_3" name="answer40" value="neutral40_3">
+            <label for="neutral40_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral40_4" name="answer40" value="neutral40_4">
+            <label for="neutral40_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral40_5" name="answer40" value="neutral40_5">
+            <label for="neutral40_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 40 -->
+     <!-- Question 41 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">41. Pikiran saya terasa kacau</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree41_1" name="answer41" value="agree41_1">
+            <label for="agree41_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral41_2" name="answer41" value="neutral41_2">
+            <label for="neutral41_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral41_3" name="answer41" value="neutral41_3">
+            <label for="neutral41_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral41_4" name="answer41" value="neutral41_4">
+            <label for="neutral41_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral41_5" name="answer41" value="neutral41_5">
+            <label for="neutral41_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 41 -->
+     <!-- Question 42 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">42. Saya mudah frustasi</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree42_1" name="answer42" value="agree42_1">
+            <label for="agree42_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral42_2" name="answer42" value="neutral42_2">
+            <label for="neutral42_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral42_3" name="answer42" value="neutral42_3">
+            <label for="neutral42_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral42_4" name="answer42" value="neutral42_4">
+            <label for="neutral42_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral42_5" name="answer42" value="neutral42_5">
+            <label for="neutral42_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 42 -->
+     <!-- Question 43 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">43.  Pikiran saya terasa tenang</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree43_1" name="answer43" value="agree43_1">
+            <label for="agree43_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral43_2" name="answer43" value="neutral43_2">
+            <label for="neutral43_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral43_3" name="answer43" value="neutral43_3">
+            <label for="neutral43_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral43_4" name="answer43" value="neutral43_4">
+            <label for="neutral43_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral43_5" name="answer43" value="neutral43_5">
+            <label for="neutral43_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 43 -->
+     <!-- Question 44 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">44. Saya tidak mudah frustasi</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree44_1" name="answer44" value="agree44_1">
+            <label for="agree44_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral44_2" name="answer44" value="neutral44_2">
+            <label for="neutral44_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral44_3" name="answer44" value="neutral44_3">
+            <label for="neutral44_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral44_4" name="answer44" value="neutral44_4">
+            <label for="neutral44_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral44_5" name="answer44" value="neutral44_5">
+            <label for="neutral44_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 44 -->
+     <!-- Question 45 -->
+     <div class="question-container">
+        <h4 class="text-Left mt-4">45. Saya sulit berkonsentrasi</h4>
+    </div>
+    <div class="radio-buttons-group text-Left mt-2">
+        <div class="radio-button">
+            <input type="radio" id="agree45_1" name="answer45" value="agree45_1">
+            <label for="agree45_1">Sangat Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral45_2" name="answer45" value="neutral45_2">
+            <label for="neutral45_2">Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral45_3" name="answer45" value="neutral45_3">
+            <label for="neutral45_3">Netral</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral45_4" name="answer45" value="neutral45_4">
+            <label for="neutral45_4">Tidak Setuju</label>
+        </div>
+        <div class="radio-button">
+            <input type="radio" id="neutral45_5" name="answer45" value="neutral45_5">
+            <label for="neutral45_5">Sangat Tidak Setuju</label>
+        </div>
+    </div>
+    <!-- End of Question 45 -->
+   <!-- Question 46 -->
+   <div class="question-container">
+    <h4 class="text-Left mt-4">46. Konsentrasi saya mudah hilang</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree46_1" name="answer46" value="agree46_1">
+        <label for="agree46_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral46_2" name="answer46" value="neutral46_2">
+        <label for="neutral46_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral46_3" name="answer46" value="neutral46_3">
+        <label for="neutral46_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral46_4" name="answer46" value="neutral46_4">
+        <label for="neutral46_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral46_5" name="answer46" value="neutral46_5">
+        <label for="neutral46_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 46 -->
+ <!-- Question 47 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">47. Saya mudah untuk berkonsentrasi</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree47_1" name="answer47" value="agree47_1">
+        <label for="agree47_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral47_2" name="answer47" value="neutral47_2">
+        <label for="neutral47_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral47_3" name="answer47" value="neutral47_3">
+        <label for="neutral47_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral47_4" name="answer47" value="neutral47_4">
+        <label for="neutral47_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral47_5" name="answer47" value="neutral47_5">
+        <label for="neutral47_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 47 -->
+ <!-- Question 48 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">48. Konsentrasi saya tetap terjaga</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree48_1" name="answer48" value="agree48_1">
+        <label for="agree48_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral48_2" name="answer48" value="neutral48_2">
+        <label for="neutral48_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral48_3" name="answer48" value="neutral48_3">
+        <label for="neutral48_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral48_4" name="answer48" value="neutral48_4">
+        <label for="neutral48_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral48_5" name="answer48" value="neutral48_5">
+        <label for="neutral48_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 48 -->
+ <!-- Question 49 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">49. Saya merasa tidak aman dengan kondisi saat ini</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree49_1" name="answer49" value="agree49_1">
+        <label for="agree49_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral49_2" name="answer49" value="neutral49_2">
+        <label for="neutral49_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral49_3" name="answer49" value="neutral49_3">
+        <label for="neutral49_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral49_4" name="answer49" value="neutral49_4">
+        <label for="neutral49_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral49_5" name="answer49" value="neutral49_5">
+        <label for="neutral49_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 49 -->
+ <!-- Question 50 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">50. Saya merasa terancam oleh perubahan yang terjadi di sekitar saya</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree50_1" name="answer50" value="agree50_1">
+        <label for="agree50_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral50_2" name="answer50" value="neutral50_2">
+        <label for="neutral50_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral50_3" name="answer50" value="neutral50_3">
+        <label for="neutral50_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral50_4" name="answer50" value="neutral50_4">
+        <label for="neutral50_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral50_5" name="answer50" value="neutral50_5">
+        <label for="neutral50_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 50 -->
+
+<!-- Question 51 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">51. Saya merasa aman dengan kondisi saat ini</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree51_1" name="answer51" value="agree51_1">
+        <label for="agree51_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral51_2" name="answer51" value="neutral51_2">
+        <label for="neutral51_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral51_3" name="answer51" value="neutral51_3">
+        <label for="neutral51_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral51_4" name="answer51" value="neutral51_4">
+        <label for="neutral51_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral51_5" name="answer51" value="neutral51_5">
+        <label for="neutral51_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 51 -->
+ <!-- Question 52 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">52. Saya merasa tidak terancam dengan perubahan mendadak di sekitar saya</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree52_1" name="answer52" value="agree52_1">
+        <label for="agree52_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral52_2" name="answer52" value="neutral52_2">
+        <label for="neutral52_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral52_3" name="answer52" value="neutral52_3">
+        <label for="neutral52_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral52_4" name="answer52" value="neutral52_4">
+        <label for="neutral52_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral52_5" name="answer52" value="neutral52_5">
+        <label for="neutral52_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 52 -->
+ <!-- Question 53 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">53. Saya merasa tidak aman dengan kondisi saya di masa depan</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree53_1" name="answer53" value="agree53_1">
+        <label for="agree53_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral53_2" name="answer53" value="neutral53_2">
+        <label for="neutral53_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral53_3" name="answer53" value="neutral53_3">
+        <label for="neutral53_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral53_4" name="answer53" value="neutral53_4">
+        <label for="neutral53_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral53_5" name="answer53" value="neutral53_5">
+        <label for="neutral53_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 53 -->
+ <!-- Question 54 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">54. Saya terlalu mewaspadai di situasi saat ini akan berdampak buruk di masa depan</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree54_1" name="answer54" value="agree54_1">
+        <label for="agree54_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral54_2" name="answer54" value="neutral54_2">
+        <label for="neutral54_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral54_3" name="answer54" value="neutral54_3">
+        <label for="neutral54_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral54_4" name="answer54" value="neutral54_4">
+        <label for="neutral54_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral54_5" name="answer54" value="neutral54_5">
+        <label for="neutral54_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 54 -->
+ <!-- Question 55 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">55. Saya merasa aman dengan kondisi masa depan</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree55_1" name="answer55" value="agree55_1">
+        <label for="agree55_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral55_2" name="answer55" value="neutral55_2">
+        <label for="neutral55_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral55_3" name="answer55" value="neutral55_3">
+        <label for="neutral55_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral55_4" name="answer55" value="neutral55_4">
+        <label for="neutral55_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral55_5" name="answer55" value="neutral55_5">
+        <label for="neutral55_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 55 -->
+ <!-- Question 56 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">56. Saya merasa di situasi saat ini tidak akan memberikan dampak buruk</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree56_1" name="answer56" value="agree56_1">
+        <label for="agree56_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral56_2" name="answer56" value="neutral56_2">
+        <label for="neutral56_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral56_3" name="answer56" value="neutral56_3">
+        <label for="neutral56_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral56_4" name="answer56" value="neutral56_4">
+        <label for="neutral56_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral56_5" name="answer56" value="neutral56_5">
+        <label for="neutral56_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 56 -->
+ <!-- Question 57 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">57. Saya merasakan Jantung saya berdebar cepat tanpa alasan yang jelas</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree57_1" name="answer57" value="agree57_1">
+        <label for="agree57_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral57_2" name="answer57" value="neutral57_2">
+        <label for="neutral57_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral57_3" name="answer57" value="neutral57_3">
+        <label for="neutral57_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral57_4" name="answer57" value="neutral57_4">
+        <label for="neutral57_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral57_5" name="answer57" value="neutral57_5">
+        <label for="neutral57_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 57 -->
+ <!-- Question 58 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">58. Detak jantung saya tidak karuan saat mendapat tantangan</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree58_1" name="answer58" value="agree58_1">
+        <label for="agree58_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral58_2" name="answer58" value="neutral58_2">
+        <label for="neutral58_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral58_3" name="answer58" value="neutral58_3">
+        <label for="neutral58_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral58_4" name="answer58" value="neutral58_4">
+        <label for="neutral58_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral58_5" name="answer58" value="neutral58_5">
+        <label for="neutral58_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 58 -->
+ <!-- Question 59 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">59. Jantung saya tetap berdetak normal saat dalam kondisi apapun</h4>
+</div>
+<div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree59_1" name="answer59" value="agree59_1">
+        <label for="agree59_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral59_2" name="answer59" value="neutral59_2">
+        <label for="neutral59_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral59_3" name="answer59" value="neutral59_3">
+        <label for="neutral59_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral59_4" name="answer59" value="neutral59_4">
+        <label for="neutral59_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral59_5" name="answer59" value="neutral59_5">
+        <label for="neutral59_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 59 -->
+ <!-- Question 60 -->
+ <div class="question-container">
+    <h4 class="text-Left mt-4">60. Detak jantung saya tetap stabil saat mendapat tantangan di hadapan saya</h4>
+</div>
+ <div class="radio-buttons-group text-Left mt-2">
+    <div class="radio-button">
+        <input type="radio" id="agree60_1" name="answer60" value="agree60_1">
+        <label for="agree60_1">Sangat Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral60_2" name="answer60" value="neutral60_2">
+        <label for="neutral60_2">Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral60_3" name="answer60" value="neutral60_3">
+        <label for="neutral60_3">Netral</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral60_4" name="answer60" value="neutral60_4">
+        <label for="neutral60_4">Tidak Setuju</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="neutral60_5" name="answer60" value="neutral60_5">
+        <label for="neutral60_5">Sangat Tidak Setuju</label>
+    </div>
+</div>
+<!-- End of Question 60 -->
+
+             <!-- Question 61 -->
+             <div class="question-container">
+                <h4 class="text-Left mt-4">61. Saya sering berkeringat dingin ketika merasa khawatir.</h4>
+            </div>
+            <div class="radio-buttons-group text-Left mt-2">
+                <div class="radio-button">
+                    <input type="radio" id="agree61_1" name="answer61" value="agree61_1">
+                    <label for="agree61_1">Sangat Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral61_2" name="answer61" value="neutral61_2">
+                    <label for="neutral61_2">Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral61_3" name="answer61" value="neutral61_3">
+                    <label for="neutral61_3">Netral</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral61_4" name="answer61" value="neutral61_4">
+                    <label for="neutral61_4">Tidak Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral61_5" name="answer61" value="neutral61_5">
+                    <label for="neutral61_5">Sangat Tidak Setuju</label>
+                </div>
+            </div>
+            <!-- End of Question 61 -->
+             <!-- Question 62 -->
+             <div class="question-container">
+                <h4 class="text-Left mt-4">62. Saya berkeringat berlebihan ketika tertekan</h4>
+            </div>
+            <div class="radio-buttons-group text-Left mt-2">
+                <div class="radio-button">
+                    <input type="radio" id="agree62_1" name="answer62" value="agree62_1">
+                    <label for="agree62_1">Sangat Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral62_2" name="answer62" value="neutral62_2">
+                    <label for="neutral62_2">Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral62_3" name="answer62" value="neutral62_3">
+                    <label for="neutral62_3">Netral</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral62_4" name="answer62" value="neutral62_4">
+                    <label for="neutral62_4">Tidak Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral62_5" name="answer62" value="neutral62_5">
+                    <label for="neutral62_5">Sangat Tidak Setuju</label>
+                </div>
+            </div>
+            <!-- End of Question 62 -->
+             <!-- Question 63 -->
+             <div class="question-container">
+                <h4 class="text-Left mt-4">63. Saya jarang mengalami keringat dingin ketika khawatir.</h4>
+            </div>
+            <div class="radio-buttons-group text-Left mt-2">
+                <div class="radio-button">
+                    <input type="radio" id="agree63_1" name="answer63" value="agree63_1">
+                    <label for="agree63_1">Sangat Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral63_2" name="answer63" value="neutral63_2">
+                    <label for="neutral63_2">Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral63_3" name="answer63" value="neutral63_3">
+                    <label for="neutral63_3">Netral</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral63_4" name="answer63" value="neutral63_4">
+                    <label for="neutral63_4">Tidak Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral63_5" name="answer63" value="neutral63_5">
+                    <label for="neutral63_5">Sangat Tidak Setuju</label>
+                </div>
+            </div>
+            <!-- End of Question 63 -->
+             <!-- Question 64 -->
+             <div class="question-container">
+                <h4 class="text-Left mt-4">64. Saya tidak mudah berkeringat meskipun dalam situasi yang menekan</h4>
+            </div>
+            <div class="radio-buttons-group text-Left mt-2">
+                <div class="radio-button">
+                    <input type="radio" id="agree64_1" name="answer64" value="agree64_1">
+                    <label for="agree64_1">Sangat Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral64_2" name="answer64" value="neutral64_2">
+                    <label for="neutral64_2">Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral64_3" name="answer64" value="neutral64_3">
+                    <label for="neutral64_3">Netral</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral64_4" name="answer64" value="neutral64_4">
+                    <label for="neutral64_4">Tidak Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral64_5" name="answer64" value="neutral64_5">
+                    <label for="neutral64_5">Sangat Tidak Setuju</label>
+                </div>
+            </div>
+            <!-- End of Question 64 -->
+             <!-- Question 65 -->
+             <div class="question-container">
+                <h4 class="text-Left mt-4">65. Saya mengalami sesak napas ketika merasa tertekan</h4>
+            </div>
+            <div class="radio-buttons-group text-Left mt-2">
+                <div class="radio-button">
+                    <input type="radio" id="agree65_1" name="answer65" value="agree65_1">
+                    <label for="agree65_1">Sangat Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral65_2" name="answer65" value="neutral65_2">
+                    <label for="neutral65_2">Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral65_3" name="answer65" value="neutral65_3">
+                    <label for="neutral65_3">Netral</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral65_4" name="answer65" value="neutral65_4">
+                    <label for="neutral65_4">Tidak Setuju</label>
+                </div>
+                <div class="radio-button">
+                    <input type="radio" id="neutral65_5" name="answer65" value="neutral65_5">
+                    <label for="neutral65_5">Sangat Tidak Setuju</label>
+                </div>
+            </div>
+            <!-- End of Question 65 -->
+                 <!-- Question 66 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">66.  Ketika saya khawatir, nafas saya terasa sangat bera</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree66_1" name="answer66" value="agree66_1">
+                        <label for="agree66_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral66_2" name="answer66" value="neutral66_2">
+                        <label for="neutral66_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral66_3" name="answer66" value="neutral66_3">
+                        <label for="neutral66_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral66_4" name="answer66" value="neutral66_4">
+                        <label for="neutral66_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral66_5" name="answer66" value="neutral66_5">
+                        <label for="neutral66_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 66 -->
+                   <!-- Question 67 -->
+                   <div class="question-container">
+                    <h4 class="text-Left mt-4">67. Saya dapat mengontrol alur pernapasan saya meskipun sedang tertekan</h4>
+                </div>
+                 <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree67_1" name="answer67" value="agree67_1">
+                        <label for="agree67_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral67_2" name="answer67" value="neutral67_2">
+                        <label for="neutral67_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral67_3" name="answer67" value="neutral67_3">
+                        <label for="neutral67_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral67_4" name="answer67" value="neutral67_4">
+                        <label for="neutral67_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral67_5" name="answer67" value="neutral67_5">
+                        <label for="neutral67_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 67 -->
+                 <!-- Question 68 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">68. Walaupun sedang khawatir, saya tidak mengalami sesak nafas</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree68_1" name="answer68" value="agree68_1">
+                        <label for="agree68_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral68_2" name="answer68" value="neutral68_2">
+                        <label for="neutral68_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral68_3" name="answer68" value="neutral68_3">
+                        <label for="neutral68_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral68_4" name="answer68" value="neutral68_4">
+                        <label for="neutral68_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral68_5" name="answer68" value="neutral68_5">
+                        <label for="neutral68_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 68 -->
+                 <!-- Question 69 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">69. Tubuh saya terasa tegang ketika menghadapi kewajiban</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree69_1" name="answer69" value="agree69_1">
+                        <label for="agree69_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral69_2" name="answer69" value="neutral69_2">
+                        <label for="neutral69_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral69_3" name="answer69" value="neutral69_3">
+                        <label for="neutral69_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral69_4" name="answer69" value="neutral69_4">
+                        <label for="neutral69_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral69_5" name="answer69" value="neutral69_5">
+                        <label for="neutral69_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 69 -->
+                 <!-- Question 70 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">70. Ketika saya khawatir tubuh saya sulit di kontrol</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree70_1" name="answer70" value="agree70_1">
+                        <label for="agree70_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral70_2" name="answer70" value="neutral70_2">
+                        <label for="neutral70_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral70_3" name="answer70" value="neutral70_3">
+                        <label for="neutral70_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral70_4" name="answer70" value="neutral70_4">
+                        <label for="neutral70_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral70_5" name="answer70" value="neutral70_5">
+                        <label for="neutral70_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 70 -->
+                 <!-- Question 71 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">71. Saya tetap rileks saat menghadapi kewajiban</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree71_1" name="answer71" value="agree71_1">
+                        <label for="agree71_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral71_2" name="answer71" value="neutral71_2">
+                        <label for="neutral71_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral71_3" name="answer71" value="neutral71_3">
+                        <label for="neutral71_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral71_4" name="answer71" value="neutral71_4">
+                        <label for="neutral71_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral71_5" name="answer71" value="neutral71_5">
+                        <label for="neutral71_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 71 -->
+                 <!-- Question 72 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">72. Di kondisi apapun tubuh saya mudah dikendalikan</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree72_1" name="answer72" value="agree72_1">
+                        <label for="agree72_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral72_2" name="answer72" value="neutral72_2">
+                        <label for="neutral72_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral72_3" name="answer72" value="neutral72_3">
+                        <label for="neutral72_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral72_4" name="answer72" value="neutral72_4">
+                        <label for="neutral72_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral72_5" name="answer72" value="neutral72_5">
+                        <label for="neutral72_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 72 -->
+                  <!-- Question 73 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">73. Banyak pikiran membuat saya sulit fokus pada suatu situasi.</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree73_1" name="answer73" value="agree73_1">
+                        <label for="agree73_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral73_2" name="answer73" value="neutral73_2">
+                        <label for="neutral73_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral73_3" name="answer73" value="neutral73_3">
+                        <label for="neutral73_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral73_4" name="answer73" value="neutral73_4">
+                        <label for="neutral73_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral73_5" name="answer73" value="neutral73_5">
+                        <label for="neutral73_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 73 -->
+                 <!-- Question 74 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">74.  Pikiran kacau membuat saya merasa tidak berdaya</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree74_1" name="answer74" value="agree74_1">
+                        <label for="agree74_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral74_2" name="answer74" value="neutral74_2">
+                        <label for="neutral74_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral74_3" name="answer74" value="neutral74_3">
+                        <label for="neutral74_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral74_4" name="answer74" value="neutral74_4">
+                        <label for="neutral74_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral74_5" name="answer74" value="neutral74_5">
+                        <label for="neutral74_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 74 -->
+                 <!-- Question 75 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">75. Dalam situasi apapun saya tetap dapat berpikir jernih</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree75_1" name="answer75" value="agree75_1">
+                        <label for="agree75_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral75_2" name="answer75" value="neutral75_2">
+                        <label for="neutral75_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral75_3" name="answer75" value="neutral75_3">
+                        <label for="neutral75_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral75_4" name="answer75" value="neutral75_4">
+                        <label for="neutral75_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral75_5" name="answer75" value="neutral75_5">
+                        <label for="neutral75_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 75 -->
+                 <!-- Question 76 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">76.  Walaupun sedang khawatir saya dapat mengambil keputusan
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree76_1" name="answer76" value="agree76_1">
+                        <label for="agree76_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral76_2" name="answer76" value="neutral76_2">
+                        <label for="neutral76_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral76_3" name="answer76" value="neutral76_3">
+                        <label for="neutral76_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral76_4" name="answer76" value="neutral76_4">
+                        <label for="neutral76_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral76_5" name="answer76" value="neutral76_5">
+                        <label for="neutral76_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 76 -->
+                 <!-- Question 77 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">77. Saat saya sedang menjalani tantangan, perut saya merasa tidak nyaman
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree77_1" name="answer77" value="agree77_1">
+                        <label for="agree77_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral77_2" name="answer77" value="neutral77_2">
+                        <label for="neutral77_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral77_3" name="answer77" value="neutral77_3">
+                        <label for="neutral77_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral77_4" name="answer77" value="neutral77_4">
+                        <label for="neutral77_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral77_5" name="answer77" value="neutral77_5">
+                        <label for="neutral77_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 77 -->
+                 <!-- Question 78 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">78.  Perut saya tidak nyaman ketika mengalami kekhawatiran berlebih</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree78_1" name="answer78" value="agree78_1">
+                        <label for="agree78_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral78_2" name="answer78" value="neutral78_2">
+                        <label for="neutral78_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral78_3" name="answer78" value="neutral78_3">
+                        <label for="neutral78_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral78_4" name="answer78" value="neutral78_4">
+                        <label for="neutral78_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral78_5" name="answer78" value="neutral78_5">
+                        <label for="neutral78_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 78 -->
+                 <!-- Question 79 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">79. Saya tidak mengalami gangguan pada perut ketika dihadapkan tantangan</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree79_1" name="answer79" value="agree79_1">
+                        <label for="agree79_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral79_2" name="answer79" value="neutral79_2">
+                        <label for="neutral79_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral79_3" name="answer79" value="neutral79_3">
+                        <label for="neutral79_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral79_4" name="answer79" value="neutral79_4">
+                        <label for="neutral79_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral79_5" name="answer79" value="neutral79_5">
+                        <label for="neutral79_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 79 -->
+                 <!-- Question 80 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">80. Saya tidak mengalami gangguan pada perut saya di situasi apapun</h4>
+                </div>
+                 <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree80_1" name="answer80" value="agree80_1">
+                        <label for="agree80_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral80_2" name="answer80" value="neutral80_2">
+                        <label for="neutral80_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral80_3" name="answer80" value="neutral80_3">
+                        <label for="neutral80_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral80_4" name="answer80" value="neutral80_4">
+                        <label for="neutral80_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral80_5" name="answer80" value="neutral80_5">
+                        <label for="neutral80_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 80 -->
+    
+                <!-- End of Question 81 -->
+                                 <!-- End of Question 80 -->
+                 <!-- Question 81 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">81. Saya menghindar dari keramaian karena membuat saya merasa tidak nyaman.</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree81_1" name="answer81" value="agree81_1">
+                        <label for="agree81_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral81_2" name="answer81" value="neutral81_2">
+                        <label for="neutral81_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral81_3" name="answer81" value="neutral81_3">
+                        <label for="neutral81_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral81_4" name="answer81" value="neutral81_4">
+                        <label for="neutral81_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral81_5" name="answer81" value="neutral81_5">
+                        <label for="neutral81_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 81 -->
+                 <!-- Question 82 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">82.Saya merasa takut ketika menemui orang lain.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree82_1" name="answer82" value="agree82_1">
+                        <label for="agree82_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral82_2" name="answer82" value="neutral82_2">
+                        <label for="neutral82_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral82_3" name="answer82" value="neutral82_3">
+                        <label for="neutral82_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral82_4" name="answer82" value="neutral82_4">
+                        <label for="neutral82_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral82_5" name="answer82" value="neutral82_5">
+                        <label for="neutral82_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 82 -->
+                 <!-- Question 83 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4"> Saya senang berinteraksi di tengah keramaian
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree83_1" name="answer83" value="agree83_1">
+                        <label for="agree83_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral83_2" name="answer83" value="neutral83_2">
+                        <label for="neutral83_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral83_3" name="answer83" value="neutral83_3">
+                        <label for="neutral83_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral83_4" name="answer83" value="neutral83_4">
+                        <label for="neutral83_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral83_5" name="answer83" value="neutral83_5">
+                        <label for="neutral83_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 83 -->
+                 <!-- Question 84 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">84.  Saya merasa nyaman ketika bersama orang lain.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree84_1" name="answer84" value="agree84_1">
+                        <label for="agree84_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral84_2" name="answer84" value="neutral84_2">
+                        <label for="neutral84_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral84_3" name="answer84" value="neutral84_3">
+                        <label for="neutral84_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral84_4" name="answer84" value="neutral84_4">
+                        <label for="neutral84_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral84_5" name="answer84" value="neutral84_5">
+                        <label for="neutral84_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 84 -->
+                 <!-- Question 85 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">85. Saya berbicara dengan cepat ketika merasa tertekan pada suatu situasi.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree85_1" name="answer85" value="agree85_1">
+                        <label for="agree85_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral85_2" name="answer85" value="neutral85_2">
+                        <label for="neutral85_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral85_3" name="answer85" value="neutral85_3">
+                        <label for="neutral85_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral85_4" name="answer85" value="neutral85_4">
+                        <label for="neutral85_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral85_5" name="answer85" value="neutral85_5">
+                        <label for="neutral85_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 85 -->
+                 <!-- Question 86 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">86.  Saya cenderung menghindari kontak mata saat berbicara dengan orang yang membuat saya merasa tidak nyaman.</h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree86_1" name="answer86" value="agree86_1">
+                        <label for="agree86_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral86_2" name="answer86" value="neutral86_2">
+                        <label for="neutral86_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral86_3" name="answer86" value="neutral86_3">
+                        <label for="neutral86_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral86_4" name="answer86" value="neutral86_4">
+                        <label for="neutral86_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral86_5" name="answer86" value="neutral86_5">
+                        <label for="neutral86_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 86 -->
+                 <!-- Question 87 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">87.  Saya tetap berbicara dengan tenang ketika merasa tertekan.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree87_1" name="answer87" value="agree87_1">
+                        <label for="agree87_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral87_2" name="answer87" value="neutral87_2">
+                        <label for="neutral87_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral87_3" name="answer87" value="neutral87_3">
+                        <label for="neutral87_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral87_4" name="answer87" value="neutral87_4">
+                        <label for="neutral87_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral87_5" name="answer87" value="neutral87_5">
+                        <label for="neutral87_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 87 -->
+                 <!-- Question 88 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">88. Saya menatap lawan bicara ketika sedang berbicara.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree88_1" name="answer88" value="agree88_1">
+                        <label for="agree88_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral88_2" name="answer88" value="neutral88_2">
+                        <label for="neutral88_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral88_3" name="answer88" value="neutral88_3">
+                        <label for="neutral88_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral88_4" name="answer88" value="neutral88_4">
+                        <label for="neutral88_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral88_5" name="answer88" value="neutral88_5">
+                        <label for="neutral88_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 88 -->
+                 <!-- Question 89 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">89.  Saya selalu mengandalkan orang lain ketika melakukan kegiatan sehari-hari.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree89_1" name="answer89" value="agree89_1">
+                        <label for="agree89_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral89_2" name="answer89" value="neutral89_2">
+                        <label for="neutral89_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral89_3" name="answer89" value="neutral89_3">
+                        <label for="neutral89_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral89_4" name="answer89" value="neutral89_4">
+                        <label for="neutral89_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral89_5" name="answer89" value="neutral89_5">
+                        <label for="neutral89_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 89 -->
+                 <!-- Question 90 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">90.  Saya selalu mengandalkan orang lain ketika melakukan kegiatan penting.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree90_1" name="answer90" value="agree90_1">
+                        <label for="agree90_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral90_2" name="answer90" value="neutral90_2">
+                        <label for="neutral90_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral90_3" name="answer90" value="neutral90_3">
+                        <label for="neutral90_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral90_4" name="answer90" value="neutral90_4">
+                        <label for="neutral90_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral90_5" name="answer90" value="neutral90_5">
+                        <label for="neutral90_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 90 -->
+                  <!-- Question 91 -->
+                  <div class="question-container">
+                    <h4 class="text-Left mt-4">91. Saya melakukan kegiatan sehari-hari secara mandiri.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree91_1" name="answer91" value="agree91_1">
+                        <label for="agree91_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral91_2" name="answer91" value="neutral91_2">
+                        <label for="neutral91_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral91_3" name="answer91" value="neutral91_3">
+                        <label for="neutral91_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral91_4" name="answer91" value="neutral91_4">
+                        <label for="neutral91_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral91_5" name="answer91" value="neutral91_5">
+                        <label for="neutral91_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 91 -->
+                 <!-- Question 92 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">92. Saya melakukan kegiatan penting secara mandiri.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree92_1" name="answer92" value="agree92_1">
+                        <label for="agree92_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral92_2" name="answer92" value="neutral92_2">
+                        <label for="neutral92_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral92_3" name="answer92" value="neutral92_3">
+                        <label for="neutral92_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral92_4" name="answer92" value="neutral92_4">
+                        <label for="neutral92_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral92_5" name="answer92" value="neutral92_5">
+                        <label for="neutral92_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 92 -->
+                 <!-- Question 93 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4"93. Saya tidak berinteraksi dengan orang lain ketika sedang merasa tertekan.
+                </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree93_1" name="answer93" value="agree93_1">
+                        <label for="agree93_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral93_2" name="answer93" value="neutral93_2">
+                        <label for="neutral93_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral93_3" name="answer93" value="neutral93_3">
+                        <label for="neutral93_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral93_4" name="answer93" value="neutral93_4">
+                        <label for="neutral93_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral93_5" name="answer93" value="neutral93_5">
+                        <label for="neutral93_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 93 -->
+                 <!-- Question 94 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">94.  Saya terbiasa menutup diri dalam sehari-hari.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree94_1" name="answer94" value="agree94_1">
+                        <label for="agree94_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral94_2" name="answer94" value="neutral94_2">
+                        <label for="neutral94_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral94_3" name="answer94" value="neutral94_3">
+                        <label for="neutral94_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral94_4" name="answer94" value="neutral94_4">
+                        <label for="neutral94_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral94_5" name="answer94" value="neutral94_5">
+                        <label for="neutral94_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 94 -->
+                 <!-- Question 95 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">95. Saya tetap berinteraksi dengan orang lain ketika sedang merasa tertekan.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree95_1" name="answer95" value="agree95_1">
+                        <label for="agree95_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral95_2" name="answer95" value="neutral95_2">
+                        <label for="neutral95_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral95_3" name="answer95" value="neutral95_3">
+                        <label for="neutral95_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral95_4" name="answer95" value="neutral95_4">
+                        <label for="neutral95_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral95_5" name="answer95" value="neutral95_5">
+                        <label for="neutral95_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 95 -->
+                 <!-- Question 96 -->
+                 <div class="question-container">
+                    <h4 class="text-Left mt-4">96.  Saya selalu merasa nyaman ketika bersama orang lain.
+                    </h4>
+                </div>
+                <div class="radio-buttons-group text-Left mt-2">
+                    <div class="radio-button">
+                        <input type="radio" id="agree96_1" name="answer96" value="agree96_1">
+                        <label for="agree96_1">Sangat Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral96_2" name="answer96" value="neutral96_2">
+                        <label for="neutral96_2">Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral96_3" name="answer96" value="neutral96_3">
+                        <label for="neutral96_3">Netral</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral96_4" name="answer96" value="neutral96_4">
+                        <label for="neutral96_4">Tidak Setuju</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="neutral96_5" name="answer96" value="neutral96_5">
+                        <label for="neutral96_5">Sangat Tidak Setuju</label>
+                    </div>
+                </div>
+                <!-- End of Question 96 -->
+
+
+            </div>
+        </section>
+
+    </main>
+    <div class="container">
+        <a href="result.html" class="btn-selanjutnya">Selanjutnya > </a>
+        </div>
+      </div>
+
+    <footer id="footer" class="footer position-relative light-background">
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">MINDCARE</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+   
+   
+    </script>
+</body>
+
+</html>
